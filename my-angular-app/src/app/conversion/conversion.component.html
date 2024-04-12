@@ -1,1 +1,9 @@
-<p>conversion works!</p>
+<h2>Konvertering</h2>
+
+<p>Här kan du konvertera Celsius till Fahrenhait</p>
+
+<ul>
+  <li *ngFor="let temperature of tempArr">
+    {{ temperature }}°C = {{ addFahrenheit(temperature) }}°F
+  </li>
+</ul>
